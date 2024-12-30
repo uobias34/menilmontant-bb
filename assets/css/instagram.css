@@ -1,0 +1,18 @@
+.box {
+  height: 150px;
+}
+
+.ig_post_container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 0fr));
+  grid-gap: 15px;
+  
+}
+
+.ig_post_container img {
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+
+}
